@@ -4,11 +4,11 @@ const Schema = mongoose.Schema;
 const schema = new Schema({
     Category: { type: String },
 	SubCategory: { type: String },
-	Type:{type:String},
+	Text:{type:String},
 	Shape: { type: String },
     Name: { type: String },
     Price: { type: String },
-    image: { type: String },
+    Image: { type: String },
     createdDate: { type: Date, default: Date.now }
 });
 
